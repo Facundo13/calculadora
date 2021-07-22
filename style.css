@@ -1,0 +1,55 @@
+body{
+    padding: 100px;
+}
+
+.container{
+    border: 1px solid #000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.visor-calc{
+    width: 432px;
+    height: 30px;
+    margin: 20px 0;
+}
+.numbers{
+    display: grid;
+    direction: reverse;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.calculadora{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.ope{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+}
+
+.btn{
+    border: 1px solid lightgrey;
+    padding: 20px;
+    color: #fff;
+    background-color: gray;
+    font-size: 30px;
+}
+
+.btn-result{
+    background-color: #f30;
+}
+
+.btn-ope{
+    background-color: #0af;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #000;
+}
